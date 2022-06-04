@@ -10,17 +10,18 @@
     grid-template-rows: 5vh 95vh;
     grid-template-areas: "header header"
         "section section";
-    grid-row-gap: 22px;
+    grid-row-gap: 35px;
 
 }
 
 .header {
 
     grid-area: header;
+    background-color: bisque;
 }
 
 .section {
-    background-color: gold;
+   
     grid-area: section;
 }
 
@@ -31,7 +32,7 @@ li {
 
 li:hover {
     transform: skew(20deg);
-    background-image: linear-gradient(yellow 10%, red 90%);
+    
     font-family: cursive;
 
 }
@@ -42,11 +43,11 @@ ul {
     background-color: aliceblue;
 }
 
-.texto {
-    display: flex;
-    justify-content: center;
+.h1 {
+   
     background-color: gold;
     text-shadow: 2px 2px;
+    display: inline;
 
 
 }
@@ -55,13 +56,8 @@ p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.encabezado {
-    display: flex;
-    justify-content: center;
-    font-family: cursive;
-    background-color: floralwhite;
-    background-image: linear-gradient(yellow 10%, red 90%);
-}
+
+
 
 @media (max-width : 345px) {
 
@@ -80,3 +76,23 @@ p {
     }
 
 }
+
+.img
+{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+  
+
+    
+
+     }
+     .textos
+     
+     {
+         font-family: fantasy;
+         font-size: 22px;
+     }
+    
